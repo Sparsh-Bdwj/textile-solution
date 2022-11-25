@@ -1,0 +1,1353 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1366px;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.nav-up {
+    width: 1366px;
+    height: 30px;
+    background-color: #d5dfa1;
+    color: rgb(139, 136, 136);
+    display: flex;
+}
+
+.content-nav-up {
+    width: 683px;
+    padding-top: -2px;
+    display: flex;
+    text-align: center;
+    padding-left: 100px; 
+    border-left: 1px solid rgb(255, 255, 255);
+}
+.content-nav-up:first-child {
+    padding-left: 150px;
+    border:none;
+}
+.content-nav-up>p {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.content-nav-up>.fa-phone,.fa-envelope {
+    font-size: 20px;
+    color: white;
+    margin: 0px 0 0 10px;
+}
+
+.content-nav-up>.fa-phone{
+    margin-top:5px;
+}
+.nav-bar {
+    width: 1366px;
+    height: 60px;
+    background-color: #96a44c;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+
+
+    margin-left: 10px;
+}
+
+.logo>img {
+    border-radius: 1px;
+}
+
+
+
+.nav-bar>ul {
+    list-style: none;
+    margin: 0px 0px 0px 105px;
+}
+
+.nav-bar>ul>li {
+    float: left;
+}
+
+.nav-bar>ul>li>span {
+    display: inline;
+}
+
+.nav-bar>ul>li>a {
+    width: 100px;
+    height: 60px;
+    text-decoration: none;
+    color: white;
+    margin: 0px 0px 0px 33px;
+    text-align: center;
+    transition: all;
+    transition-duration: 0.3s;
+    display: block;
+    padding-top: 20px;
+}
+
+.nav-bar>ul>li>a:hover {
+    opacity: 0.6;
+}
+
+.nav-bar>ul>li>ul {
+    list-style: none;
+    visibility: hidden;
+    margin-left: 20px;
+
+}
+
+.nav-bar>ul>li>ul>li>a {
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    transition: all;
+    transition-duration: 0.3s;
+    background-color: #96a44c;
+    margin: 0px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.nav-bar>ul>li>ul>li>a:hover {
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.nav-bar>ul>li:hover>ul {
+    visibility: visible;
+    transition: all;
+    transition-duration: .5s;
+}
+
+.banner {
+    width: 1366px;
+    height: 500px;
+    background-image: url("images/banner-1.jpg");
+
+}
+
+
+.text-box {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: white;
+    padding: 70px 0 0 70px;
+    line-height: 80px;
+}
+
+.text-box>span {
+    color: white;
+    background-color: #96a44c;
+}
+
+.buy-box {
+    width: 175px;
+    height: 55px;
+    background-color: #96a44c;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 12px;
+    text-transform: uppercase;
+    margin: 30px 0px 0px 600px;
+    transition: all;
+    transition-duration: .5s;
+    font-size: 25px;
+}
+
+.buy-box:hover {
+    transform: scale(1.1);
+}
+
+.about-us {
+    display: flex;
+    width: 1366px;
+    height: 410px;
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.about-image {
+    width: 600px;
+    height: 380px;
+    margin: 10px 0 0 83px;
+    padding: 10px;
+    background-color: white;
+}
+
+.about-image>img {
+   border-radius: 20px;
+   margin: 65px 0 0 25px;
+}
+
+.about-text {
+    width: 600px;
+    height: 380px;
+    margin: 10px 0 0 -35px;
+    padding-top: 50px;
+    background-color: white;
+    ;
+}
+
+.about-text>h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #96a44c;
+}
+
+.about-text>p {
+    font-size: 19px;
+    line-height: 25px;
+    margin-top: 15px;
+    
+}
+
+.fabric {
+    width: 1366px;
+    height: 750px;
+    background-color: white;
+    padding-top: 40px;
+
+}
+
+.fabric>h1 {
+    margin-left: 425px;
+    font-size: 45px;
+    color: #96a44c;
+}
+
+.fabric-up {
+    width: 1200px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    margin: 30px 0 0 83px;
+
+}
+
+.fabric-down {
+    width: 1200px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    margin: 30px 0px 0 83px;
+}
+
+
+.fabrics {
+    width: 275px;
+    height: 300px;
+    background-color: white;
+    margin-left: 35px;
+    position: relative;
+}
+
+.fabrics:nth-child(1) {
+    margin-left: 0px;
+}
+
+.fabric-effect {
+    position: absolute;
+    width: 275px;
+    height: 300px;
+    background-color: #000000a1;
+    text-align: center;
+    padding-top: 140px;
+    color: white;
+    font-size: 30px;
+    opacity: 0;
+    transition: all;
+    transition-duration: .4s;
+    border-radius: 10px;
+}
+
+.fabric-effect:hover {
+    opacity: 1;
+
+}
+
+.fabrics>img {
+    border-radius: 10px;
+}
+
+.product {
+    width: 1366px;
+    height: 510px;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.product>h1 {
+    margin-left: 475px;
+    font-size: 50px;
+    color: #96a44c;
+    text-transform: uppercase;
+}
+
+.products {
+    width: 1366px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    margin: 30px 0px 0 0px;
+
+}
+
+
+.iteams {
+    width: 253px;
+    height: 400px;
+    background-color: white;
+    margin-left: 20px;
+    overflow: hidden;
+     
+}
+
+.iteams:first-child {
+    margin-left: 0px;
+}
+
+
+.iteams>img:hover {
+    transform: scale(1.05);
+    transition: all;
+    transition-duration: .3s;
+     
+}
+
+.text-product {
+   text-align: center;
+   margin-top: 10px;
+}
+
+.text-product>h3 {
+    font-size: 25px;
+    color: #525927;
+    text-transform: uppercase;
+}
+.buy-product {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #96a44c;
+    margin: 20px 0 0 75px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-top: 3px;
+    box-shadow:1px 4px 5px 0.4px #000000;
+}
+
+.buy-product:hover {
+    transition: all;
+    transition-duration: .3s;
+    transform: scale(1.06);
+}
+
+.deals-in {
+    width: 1366px;
+    height: 900px;
+    background-color: white;
+    text-align: center;
+}
+
+.deals-in>h1 {
+    font-size: 50px;
+    color: #96a44c;
+    text-transform: uppercase;
+}
+
+.hotel-spa {
+    width: 1200px;
+    height: 400px;
+    margin-left: 83px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.house-car {
+    width: 1200px;
+    height: 400px;
+    background-color: ;
+    margin-left: 83px;
+    display: flex;
+}
+.hotel {
+    width: 600px;
+    height: 400px;
+}
+
+.hotel-text>h3 {
+    font-size: 35px;
+    color: #96a44c; 
+    text-transform: capitalize;
+}
+.hotel-text>p {
+    font-size: 15px;
+    color: black;
+    line-height: 20px;
+    text-align: center;
+}
+
+.banner-2 {
+    width: 1366px;
+    height: 400px;
+    background-image: url("images/banner-2.jpg");
+    text-align: center;
+}
+
+.banner2-text {
+    width: 1366px;
+    height: 400px;
+    background-color: #1616158a;;
+    padding: 50px 0 0 30px;
+    color: white;
+}
+.banner2-text>h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.banner2-text>p {
+    font-size: 37px;
+    text-transform: capitalize;
+    line-height: 50px;
+    margin-top: 10px;
+}
+
+.order-now {
+    width: 330px;
+    height: 45px;
+    background-color: #96a44c;
+    color: white;
+    border-radius: 10px;
+    box-shadow:1px 4px 5px 0.4px #000000;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 15px;
+    padding-top: 7px;
+    margin-left: 500px;
+}
+.order-now:hover {
+    transition: all;
+    transition-duration: .3s;
+    transform: scale(1.06);
+}
+.order-now>a {
+    color: white;
+
+}
+
+.reviews {
+    width: 1366px;
+    height: 400px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.reviews>h1 {
+    font-size: 50px;
+    color: #96a44c;
+    text-transform: uppercase;
+}
+
+.buyers {
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    margin-left: 83px;
+}
+.buyers>img {
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 30px;
+} 
+.comments {
+    height: 270px;
+    width: 270px;
+    background-color: white;
+    text-align: left;
+    margin-left: 15px;
+    padding-top: 110px;
+    
+}
+
+.comments>h2 {
+    color:rgb(139, 136, 136);
+}
+
+.comments>h1 {
+    font-size: 33px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.721);
+    
+}
+
+.comments>p {
+    font-size: 17px;
+    margin-top: 10px;
+    color:rgba(0, 0, 0, 0.721);
+    line-height: 20px;
+    
+}
+
+.buyers>.fa-circle-arrow-left {
+    font-size: 40px;
+    color:#96a44c;
+    margin: 150px 50px 0 30px;
+}
+
+.buyers>.fa-circle-arrow-right {
+    font-size: 40px;
+    color:#96a44c;
+    margin-top: 150px;
+    margin-left: -20px;
+    margin: 150px 3px 0px 50px;
+}
+
+.fa-circle-arrow-left:hover, .fa-circle-arrow-right:hover {
+    transition: all;
+    transition-duration: .3s;
+    transform: scale(1.06);
+}
+
+.contact-us {
+    width: 1366px;
+    height: 250px;
+    text-align: center;
+}
+
+.contact-us>h1 {
+    font-size: 50px;
+    color: #96a44c;
+     
+}
+
+.contact {
+    width: 1366px;
+    height: 150px;
+    display: flex;
+}
+
+.contact-iteam {
+    width :340px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-left: 2px solid rgba(0, 0, 0, 0.721);
+}
+
+.contact-iteam:first-child {
+    border: none;
+}
+
+.fa-solid {
+    font-size: 30px;
+    color: #96a44c;
+    margin-top: 10px;
+}
+
+.contact-iteam>h3 {
+    font-size: 25px;
+    color:rgba(0, 0, 0, 0.721);
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.contact-iteam>p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.721);
+    margin-top: 10px;
+}
+.footer {
+    width: 1366px;
+    height: 350px;
+    background-color: #96a44c;
+    display: flex;
+}
+
+.footer-content {
+    width: 433px;
+    height: 300px;
+    background-color: #96a44c;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-left: 2px solid whitesmoke;
+    margin-top: 25px;
+}
+
+.footer-content:first-child {
+    width: 500px;
+    border: none;
+}
+
+.footer-content:first-child>p {
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    color: white
+}
+
+.icon-box {
+    margin-top: 70px;
+}
+
+.icon-box> .fa-brands, .fa-regular {
+    font-size: 30px;
+    margin-right: 15px;
+    color: white;
+}
+
+.icon-box> .fa-brands:hover, .fa-regular:hover {
+    transition: all;
+    transition-duration: .3s;
+    transform: scale(1.06);
+}
+
+.footer-content>h2 {
+    font-size: 28px;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 110px;
+}
+
+.footer-content>ul {
+    list-style: none;
+    margin-top: 20px;
+}
+.footer-content>ul>li>a {
+    text-decoration: none;
+    color: whitesmoke;
+    height: 27px;
+    display: block;
+    text-transform: capitalize;
+    font-size: 18px;
+    text-align: center;
+    margin-left: -40px;
+}
+
+.footer-content>ul>li>a:hover {
+    opacity: .6;
+    transition: all;
+    transition-duration: .3s;
+}
+
+.search-box {
+    width: 250px;
+    height: 30px;
+    margin-left: 65px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+
+}
+
+.footer-content:last-child>h2 {
+    margin-left: 119px;
+}
+
+.footer-content>button {
+    width: 70px;
+    height: 25px;
+    margin-left: 150px;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #96a44c;
+    color: white;
+}
+
+.footer-content>button:hover {
+    transition: all;
+    transition-duration: .3s;
+    transform: scale(1.06);
+}
+
+.copyright {
+    width: 1366px;
+    height: 30px;
+    background-color: #d5dfa1;
+    text-align: center;
+    color: rgb(139, 136, 136);
+    padding-top: 5px;
+    
+}
+.copyright>span {
+    color: white;
+}
+
+/* css for about-us page ------------------------------------------------------------------------------------------------------- */
+
+.banner-about {
+    width: 1366px;
+    height: 300px;
+    background-image: url("images/banner-about.jpg");
+}
+
+.text-box-about {
+    width: 1366px;
+    height: 300px;
+    background-color: #95a44c29;;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.text-box-about>h1 {
+   color: white;
+   font-size: 60px;
+   
+}
+
+.text-box-about>button {
+    width: 150px;
+    height: 35px;
+    background-color: #96a44c;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 1px 4px 7px 0.4px #000000;
+    margin-top: 10px;
+}
+.text-box-about>button:hover {
+    transition: all;
+    transition-duration: .3s;
+    transform: scale(1.05);
+}
+
+.about-founder {
+    width: 1200px;
+    height: 500px;
+    background-color: white;
+    margin-left: 83px;
+    
+    display: flex;
+    margin-top: 30px;
+}
+
+.founder {
+    width: 700px;
+    height: 500px;
+    
+    padding-left: 90px;
+    padding-top: 70px;
+}
+
+.founder>h4 {
+    color: black;
+    font-size: 27px;
+    text-transform: capitalize;
+}
+
+.founder>h2 {
+    color: #96a44c;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.founder>p {
+    font-size: 20px;
+    color: black;
+    line-height: 20px;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.mr-hari {
+    width: 300px;
+    height: 400px;
+    margin: 44px 0 0 95px;
+}
+
+/* css for contact -----------------------------------------------------------------------------------------------------------------*/
+
+.banner-contact {
+    width: 1366px;
+    height: 300px;
+    background-image: url("images/contact-image.jpg");
+}
+
+.contact-map {
+    width: 1200px;
+    height: 650px;
+    margin-left: 83px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contact-map>h2 {
+    font-size: 40px;
+    color: #96a44c;
+}
+
+.contact-map>iframe {
+    margin-top: 30px;
+}
+
+/* css for faq page ----------------------------------------------------------------------------------------------------------------- */
+
+.banner-faq {
+    width: 1366px;
+    height: 300px;
+    background-image: url("images/faq-banner.jpg");
+}
+
+.faqs {
+    width: 1200px;
+    height: 620px;
+    text-align: center;
+    margin-left: 83px;
+    padding-top: 20px;
+}
+
+.faqs>h2 {
+    font-size: 54px;
+    color: #96a44c;
+}
+
+.faqs-box {
+    width: 1160px;
+    height: 510px;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+.faq-iteams {
+    width: 1100px;
+    height: 160px;
+    background-color: white;
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.faq-main {
+    width: 540px;
+    height: 150px;
+    background-color: white;
+    margin-left: 10px;
+    box-shadow: 1px 4px 7px 0.4px #000000;
+}
+
+.faq-main>p {
+    text-align: justify;
+    margin: 5px 0 0 5px;
+    color: #5d5c5c
+}
+
+.faq-main>p>span {
+    font-size: 20px;
+    color: #96a44c;
+}
+
+.faq-main>p:first-child {
+   font-size: 18px;
+   font-weight: 1000;
+   margin-top: 20px;
+}
+
+.help-box {
+    width: 1366px;
+    height: 150px;
+    color: #96a44c;
+    font-size: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.help-search {
+    width: 500px;
+    height: 50px;
+    color:rgb(139, 136, 136);
+    margin-top :20px;
+    border-radius: 10px;
+    border: .5px solid black;
+    padding-left: 10px;
+}
+
+.ask-help {
+    width: 1366px;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    margin-left: 65px;
+    padding-top: 20px;
+}
+
+.ask-for-help {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    margin-left: 50px;
+    box-shadow: 1px 4px 7px 0.4px #000000;
+}
+
+.ask-help-box {
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    padding-top: 15px;
+}
+.ask-help-box>button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #96a44c;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: all;
+    transition-duration: .3s;
+    box-shadow: 1px 4px 7px 0.4px #000000;
+}
+
+.ask-help-box> button:hover {
+    transform: scale(1.04);
+}
+
+.ask-help-box>h3 {
+    margin-top: 10px;
+    color: #96a44c ;
+}
+
+.ask-help-box>p {
+    margin-top: 10px;
+}
+
+/* css for towles page ----------------------------------------------------------------------------------------------------*/
+
+.towel-banner {
+    width: 1366px;
+    height: 500px;
+    background-image: url("images/towel-banner.jpg");
+
+}
+
+
+.towel-text-box {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: white;
+    padding: 70px 0 0 70px;
+    line-height: 80px;
+}
+
+.towel-text-box>span {
+    color: white;
+    background-color: #96a44c;
+}
+.explore-collection {
+    width: 1200px;
+    height: 1130px;
+    margin-left: 83px;
+
+    text-align: center;
+    padding-top: 20px; 
+}
+.explore-up {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.explore-down {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.explore-collection>h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #96a44c;
+}
+
+.explore-iteam {
+    width: 360px;
+    height: 500px;
+    margin-left: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.explore-iteam>button{
+    width: 200px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    color: #96a44c;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.explore-iteam>img:hover{
+    width: 370px;
+    height: 510px;
+    transition: all;
+    transition-duration: 2s;
+}
+
+.about-towel {
+    width: 1200px;
+    height: 400px;
+    background-color: white;
+    margin-left: 83px;
+    
+    display: flex;
+    margin-top: 30px;
+}
+
+.founder-towel {
+    width: 700px;
+    height: 400px;
+    
+    padding-left: 90px;
+    padding-top: 40px;
+}
+
+.founder-towel>h4 {
+    color: black;
+    font-size: 27px;
+    text-transform: capitalize;
+}
+
+.founder-towel>h2 {
+    color: #96a44c;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.founder-towel>p {
+    font-size: 20px;
+    color: black;
+    line-height: 20px;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.about-towel-img>img {
+    margin: 50px 0 0 30px;
+    border-radius: 10px;
+}
+
+.shop-towels {
+    width: 1366px;
+    height: 910px;
+}
+
+.head-shop-towels {
+    width: 1366px;
+    height: 50px;
+    text-align: center;
+}
+
+.head-shop-towels>h4 {
+    color: #96a44c;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.content-shop-towels {
+    width: 1366px;
+    height: 400px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.content-shop-towels:last-child{
+    margin-top: 20px;
+}
+.towels-types {
+   width: 325px;
+   height: 400px;
+   margin-left: 12px;
+}
+
+.towel-types-text {
+    width: 325px;
+    height: 150px;
+}
+
+.towel-types-text>p {
+    margin-top: 20px;
+    text-align: justify;
+    margin-left: 5px;
+}
+
+.towel-types-text>p:nth-child(2) {
+    margin-top: 10px;;
+}
+
+.towel-types-text>p>span {
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+
+.towel-types-text>button {
+    width: 140px;
+    height: 35px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #96a44c;
+    margin-left: 100px;
+    margin-top: 15px;
+    transition: all;
+    transition-duration: .3s;
+}
+
+.towel-types-text>button:hover {
+    transform: scale(1.04);
+}
+
+.partner {
+    width: 1200px;
+    height: 300px;
+    margin-left: 83px;
+}
+
+.partners-head {
+    width: 1200px;
+    height: 50px;
+    text-align: center;
+}
+.partners-head>h3 {
+    color: #96a44c;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.partners-img {
+    width: 1200px;
+    height: 250px;
+    display: flex;
+}
+
+.partner-images {
+    width: 300px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+/* css for carpet and mats----------------------------------------------------------------------------------------------------- */
+
+.carpet-banner {
+    width: 1366px;
+    height: 500px;
+    background-image: url("images/carpet-banner.jpg");
+}
+
+/* css for bedsheets ----------------------------------------------------------------------------------------------------------*/
+
+.bedsheet-banner {
+    width :1366px;
+    height: 500px;
+    background-image: url("images/bedsheet-banner.jpg")
+}
+
+/* css for home-decors --------------------------------------------------------------------------------------------------------*/
+
+.decors-banner {
+    width: 1366px;
+    height: 500px;
+    background-image: url("images/decors-banner.jpg")
+}
+
+/* css for clients page ------------------------------------------------------------------------------------------------------*/
+.clients-banner {
+    width: 1366px;
+    height: 500px;
+    background-image: url("images/clients-banner.jpg");
+}
+
+.clients-text-box {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: white;
+    padding: 70px 0 0 70px;
+    line-height: 80px;
+}
+
+.clients-text-box>span {
+    color: white;
+    background-color: #96a44c;
+}
+
+.clients-banner>.buy-box{
+    margin: 30px 0px 0px 600px;
+}
+
+.hotels-block {
+    width: 1200px;
+    height: auto;
+    margin-left: 83px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+.hotels-b-1 {
+    width: 1200px;
+    height: 350px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.hotels-b-1-1 {
+   width: 500px;
+   height: 350px;
+   background-color: white;
+   padding-top: 20px;
+   margin-left: 30px;
+}
+
+.hotels-b-1-1>img {
+   border-radius: 10px;
+   transition: all;
+   transition-duration: .3s;
+}
+.hotels-b-1-1>img:hover {
+    transform: scale(1.04);
+ }
+.hotels-b-1-2 {
+    width: 700px;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+}
+
+.b-1-2-text {
+    width: 600px;
+    height: 350px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.b-1-2-text>h2 {
+    font-size: 40px;
+    color: #96a44c;
+    text-transform: uppercase;
+    text-align: left;}
+
+.b-1-2-text>p {
+    text-align: justify;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.services-we-1 {
+    margin-top: 10px;
+    width: 1200px;
+    height: 340px;
+    text-align: center;
+}
+
+.services-we-1>h3 {
+    font-size: 30px;
+    color: #96a44c;
+    text-transform: capitalize
+}
+
+.services-we-1-1 {
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    padding-left: 70px;
+}
+
+.services-we-1-1-1 {
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.services-we-1-1-1>div {
+    width: 50px;
+    height: 50px;
+    background-color: #96a44c;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 60px;
+    
+}
+
+.services-we-1-1-1>div>h2 {
+    padding-top: 10px;
+    color: white;
+}
+
+.services-we-1-1-1>p {
+    margin-top: 20px;
+    color:rgb(139, 136, 136);
+    text-align: center;
+    font-size: 17px;
+}
+.services-we-1-1-1>h4 {
+    margin-top: 10px;
+}
+
+.all-clients {
+    width: 1200px;
+    height: 725px;
+}
+.all-clients>h3 {
+    font-size: 40px;
+    color: #96a44c;
+    text-transform: capitalize;
+}
+
+.all-clients-1 {
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.all-clients-1-1 {
+    width: 230px;
+    height: 200px;
+}
+
+.all-clients>h4 {
+    color: #96a44c;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.and-change {
+    margin-left: 76px;
+}
+
+.and-change-1 {
+    margin-left: -98px;
+}
+
